@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet"  href="/contact.css">
+   <link rel="stylesheet" href="/headerfooter.css">
+   
+   
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RP's Portfolio</title>
+  
+</head>
+<body>
+    <div class="page-wrapper">
+    {{>header}}
+  <div id="form">
+    <h2>Let's Connect!</h2>
+    <form>
+      <div>
+
+        <p>First name:</p><input type="text" placeholder="enter first name" id="f-name" required>
+        <p>Last name:</p><input type="text" placeholder="enter last name" required>
+      </div>
+        <p>Email:</p><input type="email" placeholder="enter your email" maxlength="40" required>
+        <p>Discription:</p><input type="text" placeholder="Enter your Discription" maxlength="200" id="discription" required>
+        <button type="submit" id="submit-btn">Submit</button>
+    </form>
+  </div>
+
+  <div id="sec-2">
+    
+
+    <h2>Connect with Me</h2>
+    <div id="email">
+      
+         Email:<span> patelridham737@gmail.com</span>
+        
+   
+        </div>
+        <div id="icons">
+      
+          <div>
+            <a href="/RidhamPatelResume.pdf"  download="ridhamresume.pdf"> <img src="img/resume.jpeg"  alt="resume"></a>
+            
+          </div>
+          
+          <div>
+             <a href="https://github.com/Ridham-patel19" target="_blank"><img src="img/githubnew.png"  alt="Github"></a>
+            
+          </div>
+          <div>
+             <a href="https://linkedin.com/in/ridham19" target="_blank"><img src="img/linkedin.png"  alt="linkedin"></a>
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+     <div id="footer-contact">
+
+      {{>footer}}
+     </div>
+  </div>
+ 
+ </body>
+ </html>
+  
