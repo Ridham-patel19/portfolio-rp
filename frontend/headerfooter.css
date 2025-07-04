@@ -80,6 +80,10 @@ html, body {
     padding-left: 9px;
     padding-bottom: 5px;
   }
+
+   #right nav ul li a{
+    font-size: 11px;
+   }
 }
 
 footer {

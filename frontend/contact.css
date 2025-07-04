@@ -142,6 +142,10 @@ form button:hover {
     width: 36px;
     height: 36px;
   }
+
+  #form{
+    padding-top: 40px;
+  }
 }
 
 
